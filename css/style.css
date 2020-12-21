@@ -1,0 +1,91 @@
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  flex-grow: 1;
+}
+
+.catagorries {
+  flex-grow: 1;
+}
+
+form {
+  flex-grow: 5;
+}
+
+form .input-group {
+  border: 1px solid #00000030;
+}
+
+form .input-group input {
+  border: transparent;
+}
+
+form .input-group input:focus {
+  box-shadow: none;
+}
+
+form .input-group i {
+  background-color: #ffffff;
+  padding: 10px;
+  color: #ec5353;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+form .input-group i:hover {
+  background-color: #ec5353;
+  color: #ffffff;
+}
+
+.header_right .btn-login {
+  border: 1px solid gray;
+}
+
+#carousel {
+  background-image: url(../../img/cover.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+#carousel form {
+  flex-grow: 5;
+}
+
+#carousel form .input-group {
+  border: 1px solid #00000030;
+}
+
+#carousel form .input-group input {
+  border: transparent;
+}
+
+#carousel form .input-group input:focus {
+  box-shadow: none;
+}
+
+#carousel form .input-group i {
+  background-color: #ffffff;
+  padding: 10px;
+  color: #ec5353;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#carousel form .input-group i:hover {
+  background-color: #ec5353;
+  color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */

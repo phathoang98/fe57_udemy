@@ -1,0 +1,13 @@
+@import"./helper/mixin";
+@import"./helper/variable";
+@import"./base/reset.scss";
+@import"./component/header";
+@import"./component/carousel";
+@import"./layout/home";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

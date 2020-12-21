@@ -1,0 +1,23 @@
+
+// ============ HEADER =========>
+
+.header_left{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    flex-grow: 1;
+}
+
+.catagorries{
+    flex-grow: 1;
+}
+
+@include search();
+
+.header_right{
+    .btn-login{
+        border: 1px solid gray;
+    }
+}
